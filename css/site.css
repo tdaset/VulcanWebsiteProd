@@ -1,128 +1,161 @@
 .smc-content-divider {
-    height: 4px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+  height: 4px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .smc-site-title {
-    font-size: 56px;
-    letter-spacing: 8px;
-    text-shadow: 0px 0px 10px black;
-    font-family: "Aeromatics Small Caps NC";
-    text-transform: uppercase;
-    padding-top: 120px;
+  font-size: 72px;
+  font-size: 5vw;
+  letter-spacing: 8px;
+  text-shadow: 0px 0px 10px black;
+  font-family: "Aeromatics Small Caps NC";
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  .smc-site-title {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .smc-site-title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .smc-site-title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .smc-site-title {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
 }
 
 .smc-title-blurb {
-    font-size: 34px;
-    letter-spacing: 4px;
-    max-width: 765px;
-    margin: 35px auto 45px;
-    text-shadow: 0px 0px 10px black;
-    font-weight: 300;
-    font-family: "Avenir LT Std 55 Roman";
-    text-transform: uppercase;
+  font-size: 24px;
+  font-size: 3vw;
+  letter-spacing: 4px;
+  max-width: 765px;
+  margin: 35px auto 45px;
+  text-shadow: 0px 0px 10px black;
+  font-weight: 300;
+  font-family: "Avenir LT Std 55 Roman";
+  text-transform: uppercase;
 }
 
 .smc-title-button {
-    box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px black;
 }
-
 
 /* Fonts */
-
 @font-face {
-    font-family: 'Aeromatics Small Caps NC';
-    src: local('../fonts/Aeromatics Small Caps NC'), url('../fonts/Aeromatics_Small_Caps_NC.ttf') format('ttf');
+  font-family: "Aeromatics Small Caps NC";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Aeromatics Small Caps NC"),
+    url("../fonts/Aeromatics_Small_Caps_NC.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Aeromatics Small Caps NC';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Aeromatics Small Caps NC'), url('../fonts/Aeromatics_Small_Caps_NC.ttf') format('truetype') url('../fonts/Aeromatics_Small_Caps_NC.woff') format('woff') url('../fonts/Aeromatics_Small_Caps_NC.woff2') format('woff2');
+  font-family: "Avenir LT Std 95 Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Avenir LT Std 95 Black"),
+    url("../fonts/AvenirLTStd-Black.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Avenir LT Std 95 Black';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Avenir LT Std 95 Black'), url('../fonts/AvenirLTStd-Black.woff') format('woff');
+  font-family: "Avenir LT Std 45 Book";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Avenir LT Std 45 Book"),
+    url("../fonts/AvenirLTStd-Book.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Avenir LT Std 45 Book';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Avenir LT Std 45 Book'), url('../fonts/AvenirLTStd-Book.woff') format('woff');
+  font-family: "Avenir LT Std 85 Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Avenir LT Std 85 Heavy"),
+    url("../fonts/AvenirLTStd-Heavy.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Avenir LT Std 85 Heavy';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Avenir LT Std 85 Heavy'), url('../fonts/AvenirLTStd-Heavy.woff') format('woff');
+  font-family: "Avenir LT Std 35 Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Avenir LT Std 35 Light"),
+    url("../fonts/AvenirLTStd-Light.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Avenir LT Std 35 Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Avenir LT Std 35 Light'), url('../fonts/AvenirLTStd-Light.woff') format('woff');
+  font-family: "Avenir LT Std 65 Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Avenir LT Std 65 Medium"),
+    url("../fonts/AvenirLTStd-Medium.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Avenir LT Std 65 Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Avenir LT Std 65 Medium'), url('../fonts/AvenirLTStd-Medium.woff') format('woff');
+  font-family: "Avenir LT Std 55 Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Avenir LT Std 55 Roman"),
+    url("../fonts/AvenirLTStd-Roman.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Avenir LT Std 55 Roman';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Avenir LT Std 55 Roman'), url('../fonts/AvenirLTStd-Roman.woff') format('woff');
+  font-family: "Avenir LT Std 95 Black Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Avenir LT Std 95 Black Oblique"),
+    url("../fonts/AvenirLTStd-BlackOblique.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Avenir LT Std 95 Black Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Avenir LT Std 95 Black Oblique'), url('../fonts/AvenirLTStd-BlackOblique.woff') format('woff');
+  font-family: "Avenir LT Std 45 Book Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Avenir LT Std 45 Book Oblique"),
+    url("../fonts/AvenirLTStd-BookOblique.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Avenir LT Std 45 Book Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Avenir LT Std 45 Book Oblique'), url('../fonts/AvenirLTStd-BookOblique.woff') format('woff');
+  font-family: "Avenir LT Std 85 Heavy Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Avenir LT Std 85 Heavy Oblique"),
+    url("../fonts/AvenirLTStd-HeavyOblique.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Avenir LT Std 85 Heavy Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Avenir LT Std 85 Heavy Oblique'), url('../fonts/AvenirLTStd-HeavyOblique.woff') format('woff');
+  font-family: "Avenir LT Std 35 Light Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Avenir LT Std 35 Light Oblique"),
+    url("../fonts/AvenirLTStd-LightOblique.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Avenir LT Std 35 Light Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Avenir LT Std 35 Light Oblique'), url('../fonts/AvenirLTStd-LightOblique.woff') format('woff');
+  font-family: "Avenir LT Std 65 Medium Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Avenir LT Std 65 Medium Oblique"),
+    url("../fonts/AvenirLTStd-MediumOblique.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Avenir LT Std 65 Medium Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Avenir LT Std 65 Medium Oblique'), url('../fonts/AvenirLTStd-MediumOblique.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Avenir LT Std 55 Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/Avenir LT Std 55 Oblique'), url('../fonts/AvenirLTStd-Oblique.woff') format('woff');
+  font-family: "Avenir LT Std 55 Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Avenir LT Std 55 Oblique"),
+    url("../fonts/AvenirLTStd-Oblique.woff") format("woff");
 }
