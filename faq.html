@@ -15,7 +15,12 @@
       <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
         <nav class="uk-navbar-container" uk-navbar="dropbar: true; boundary-align: true; align: center;">
           <div class="uk-navbar-left">
-            <a class="uk-navbar-item uk-logo uk-visible@s" href="index.html">MegaFactory Titan</a>
+            <div class="uk-navbar-item  uk-visible@s">
+              <button class="uk-button uk-button-link" href="#">
+                <img data-src="images/logo.png" width=40" alt="MegaFactory Titan" uk-img>
+              </button>
+              <a class="uk-navbar-item uk-logo uk-visible@s" href="index.html">MegaFactory Titan</a>
+            </div>
             <ul class="uk-navbar-nav uk-hidden@s">
               <li>
                 <a class="uk-navbar-toggle" uk-navbar-toggle-icon></a>
@@ -29,9 +34,6 @@
                     </li>
                     <li class="uk-text-uppercase">
                       <a href="#">Forum</a>
-                    </li>
-                    <li class="uk-text-uppercase">
-                      <a href="#">Blog</a>
                     </li>
                     <li class="uk-nav-divider"></li>
                     <li>
@@ -63,12 +65,6 @@
           </div>
           <div class="uk-navbar-right">
             <div class="uk-navbar-item  uk-visible@s">
-              <a href="#">
-                <span class="uk-icon-button uk-button-secondary uk-margin-small-right" uk-icon="icon: facebook"></span>
-              </a>
-              <a href="#">
-                <span class="uk-icon-button uk-button-secondary uk-margin-small-right" uk-icon="icon: twitter"></span>
-              </a>
               <button class="uk-button uk-button-link" href="#">
                 <img data-src="images/steam.png" width="150" alt="Download on steam" uk-img>
               </button>
@@ -81,6 +77,7 @@
           </div>
         </nav>
       </div>
+
 
       <div class="uk-background-cover uk-panel" style="background-image: url(images/background5.jpg);">
         <div class="uk-overlay-primary uk-light uk-grid-collapse" uk-grid>
@@ -191,9 +188,6 @@
               <span class="uk-icon-button uk-button-secondary uk-margin-small-right" uk-icon="icon: mail"></span>
             </a>
             <a href="#">
-              <span class="uk-icon-button uk-button-secondary uk-margin-small-right" uk-icon="icon: facebook"></span>
-            </a>
-            <a href="#">
               <span class="uk-icon-button uk-button-secondary uk-margin-small-right" uk-icon="icon: instagram"></span>
             </a>
             <a href="#">
@@ -208,6 +202,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
   <script src="scripts/uikit.min.js"></script>
