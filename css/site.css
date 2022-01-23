@@ -4,6 +4,14 @@
   border-bottom: 1px solid black;
 }
 
+.smc-light-background {
+  background-color: #f0f0f0 !important;
+}
+
+.uk-navbar-dropbar-slide {
+  background-color: #f0f0f0 !important;
+}
+
 .smc-site-title {
   font-size: 72px;
   font-size: 5vw;
