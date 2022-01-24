@@ -1,7 +1,11 @@
 hr.smc-content-divider {
-  height: 4px;
+  height: 2px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+}
+
+hr.smc-content-divider.smc-main {
+  height: 4px;
 }
 
 .smc-light-background {
